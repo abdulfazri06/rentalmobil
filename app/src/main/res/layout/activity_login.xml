@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="18dp"
+    android:orientation="vertical"
+
+    tools:context=".LoginActivity">
+
+
+    <ImageView
+        android:layout_width="148dp"
+        android:layout_height="141dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-30dp"
+        android:background="@drawable/car1" />
+
+    <EditText
+        android:id="@+id/et_emailSignin"
+        android:drawableStart="@drawable/user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:imeOptions="actionNext"/>
+    <EditText
+        android:id="@+id/et_passwordSignin"
+        android:drawableStart="@drawable/key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:imeActionId="6"
+        android:imeActionLabel="Sign In"
+        android:imeOptions="actionDone" />
+
+
+    <Button
+        android:id="@+id/button_signinSignin"
+        android:layout_width="329dp"
+        android:layout_height="43dp"
+        android:layout_below="@+id/password"
+        android:layout_margin="10dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/costum4"
+        android:text="Log In"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/button_signupSignin"
+        android:layout_width="324dp"
+        android:layout_height="43dp"
+        android:layout_below="@+id/password"
+        android:layout_margin="10dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/costum4"
+        android:text="Sign Up"
+        android:textSize="20sp" />
+</LinearLayout>

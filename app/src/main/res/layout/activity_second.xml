@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent" android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp" tools:context=".SecondActivity">
+
+
+    <ImageView
+        android:layout_width="148dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-30dp"
+        android:background="@drawable/add" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></RelativeLayout>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Mobil" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Posisi Mobil" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextDesg" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kondisi Mobil" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextSalary" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"></RelativeLayout>
+
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/costum4"
+        android:text="Tambah Mobil" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="15dp"></RelativeLayout>
+
+    <Button
+        android:id="@+id/buttonView"
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/costum4"
+        android:text="Daftar Mobil" />
+
+</LinearLayout>
